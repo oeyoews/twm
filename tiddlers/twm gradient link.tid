@@ -1,7 +1,7 @@
 created: 20220509171036341
-modified: 20220509171319718
+modified: 20220509171731302
 tags: docs
 title: twm gradient link
 type: text/vnd.tiddlywiki
 
-<a style="font-size:1rem;font-weight:bold;background: linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);-webkit-background-clip: text;color: transparent;" href="https://gitlab.com/oeyoews/tw5/" target="_blank">twm</a>
+<a style="font-size:1rem;font-weight:bold;background: linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);-webkit-background-clip: text;color: transparent;" href="https://gitlab.com/oeyoews/twm/" target="_blank">twm</a>
