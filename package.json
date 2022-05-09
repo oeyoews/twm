@@ -4,6 +4,7 @@
   "description": "twm",
   "main": "index.js",
   "scripts": {
+    "start": "tiddlywiki --listen port=8081",
     "build": "tiddlywiki --output public --build index"
   },
   "repository": {
