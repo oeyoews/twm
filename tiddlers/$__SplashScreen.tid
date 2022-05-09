@@ -1,5 +1,5 @@
 created: 20180927082601825
-modified: 20220509172059853
+modified: 20220509172638981
 tags: $:/tags/RawMarkupWikified/TopBody
 title: $:/SplashScreen
 type: text/vnd.tiddlywiki
@@ -112,7 +112,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 <!-- Demonstrating how to embed a bitmap graphic --> 
 <div class="tc-splash-text">
-<img src="data:image/jpeg;base64,{{Banner||$:/core/templates/plain-text-tiddler}}" width="100"/>
+<img src="https://cdn.jsdelivr.net/gh/oeyoews/img/music-notes.png" width="100"/>
 </div>
 
 <!-- Demonstrating how to embed a wikitext SVG graphic --> 
