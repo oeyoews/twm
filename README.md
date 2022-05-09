@@ -12,10 +12,12 @@
 
 ## ✅ TODO
 
+* [ ] add readme with image
+* [ ] splashscreen is conflict this plugin(ing)
 * [x] add build workflow for html
 * [x] update address
 * [x] config startup img
-* add readme with image
-* splashscreen is conflict this plugin(ing)
 
 ## 🕐 UpdateTime
+
+2022-05-10T07:38:41+08:00
