@@ -1,0 +1,94 @@
+{"tiddlers": {
+"$:/plugins/oeyoews/TWM/history": {
+    "created": "20220509151829087",
+    "text": "!! TODO\n",
+    "title": "$:/plugins/oeyoews/TWM/history",
+    "modified": "20220509151952612",
+    "tags": "",
+    "type": "text/vnd.tiddlywiki",
+    "revision": "1",
+    "bag": "default"
+},
+
+"$:/plugins/oeyoews/TWM/icon": {
+    "created": "20220509152521133",
+    "text": "<svg width=\"22pt\" height=\"22pt\"  class=\"tc-image-plugin-generic-plugin tc-image-button\" fill=\"#35da8c\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d=\"M511.1 367.1c0 44.18-42.98 80-95.1 80s-95.1-35.82-95.1-79.1c0-44.18 42.98-79.1 95.1-79.1c11.28 0 21.95 1.92 32.01 4.898V148.1L192 224l-.0023 208.1C191.1 476.2 149 512 95.1 512S0 476.2 0 432c0-44.18 42.98-79.1 95.1-79.1c11.28 0 21.95 1.92 32 4.898V126.5c0-12.97 10.06-26.63 22.41-30.52l319.1-94.49C472.1 .6615 477.3 0 480 0c17.66 0 31.97 14.34 32 31.99L511.1 367.1z\"/></svg>",
+    "tags": "",
+    "title": "$:/plugins/oeyoews/TWM/icon",
+    "modified": "20220509152820560",
+    "type": "text/vnd.tiddlywiki",
+    "revision": "7",
+    "bag": "default"
+},
+
+"$:/plugins/oeyoews/TWM/license": {
+    "created": "20220509151829089",
+    "text": "Distributed under an MIT license.\n\n\n<<<\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n<<<",
+    "title": "$:/plugins/oeyoews/TWM/license",
+    "modified": "20220509151928402",
+    "tags": "",
+    "type": "text/vnd.tiddlywiki",
+    "revision": "1",
+    "bag": "default"
+},
+
+"$:/plugins/oeyoews/TWM/plugin.info": {
+    "created": "20220509151145097",
+    "title": "$:/plugins/oeyoews/TWM/plugin.info",
+    "type": "application/json",
+    "text": "{\n    \"title\": \"$:/plugins/oeyoews/TWM\",\n    \"name\": \"TiddlyWiki5 Music Player\",\n    \"description\": \"embed aplayer and metingjs into Tiddlywiki5\",\n    \"author\": \"oeyoews\",\n    \"version\": \"\",\n    \"core-version\": \"5.2.2\",\n    \"source\": \"https://github.com/oeyoews/xxx\",\n    \"list\": \"\",\n    \"parent-plugin\": \"\",\n    \"dependents\": \"\",\n    \"plugin-type\": \"plugin\",\n    \"packaged-by\": \"Gatha on 9th May 2022, 23:18:03\"\n}",
+    "modified": "20220509151803236",
+    "revision": "2",
+    "bag": "default"
+},
+
+"$:/plugins/oeyoews/TWM/readme": {
+    "created": "20220509151829092",
+    "text": "!! todo\n",
+    "title": "$:/plugins/oeyoews/TWM/readme",
+    "modified": "20220509151907877",
+    "tags": "",
+    "type": "text/vnd.tiddlywiki",
+    "revision": "1",
+    "bag": "default"
+},
+
+"$:/plugins/oeyoews/Twm/musicjs": {
+    "created": "20220421054229882",
+    "text": "<script src=\"https://cdn.jsdelivr.net/gh/DIYgod/APlayer/dist/APlayer.min.js\"></script>\n<script src=\"https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js \"></script>",
+    "title": "$:/plugins/oeyoews/Twm/musicjs",
+    "creator": "oeyoews",
+    "modified": "20220509151738148",
+    "modifier": "oeyoews",
+    "tags": "$:/tags/RawMarkup",
+    "type": "text/vnd.tiddlywiki",
+    "bag": "default",
+    "revision": "1"
+},
+
+"$:/plugins/oeyoew/Twm/stylesheet": {
+    "created": "20220509151653461",
+    "text": "<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/gh/DIYgod/APlayer/dist/APlayer.min.css\">",
+    "title": "$:/plugins/oeyoew/Twm/stylesheet",
+    "tags": "$:/tags/RawMarkup",
+    "modified": "20220509152908866",
+    "type": "text/vnd.tiddlywiki",
+    "bag": "default",
+    "revision": "2"
+},
+
+"$:/plugins/oeyoews/Twm/settings": {
+    "created": "20211001231029099",
+    "text": "<!-- https://ftzzloo.com/hexo-add-aplayer-plugins/ -->\n`<meting-js id=\"3218667513\"  server=\"netease\" order=\"random\" type=\"playlist\" fixed=\"true\" preload=\"auto\" loop=\"all\" theme=\"cyan\" mutex=\"true\" lyctype=\"0\" list-olded=\"true\">`\n`</meting-js>`",
+    "creator": "Télumire",
+    "title": "$:/plugins/oeyoews/Twm/settings",
+    "modified": "20220509151551512",
+    "modifier": "oeyoews",
+    "tags": "$:/TiddlyTweaks $:/footer $:/tags/RawMarkupWikified/BottomBody",
+    "type": "text/vnd.tiddlywiki",
+    "bag": "default",
+    "caption": "BodyFooter",
+    "tagging": "after",
+    "revision": "1"
+}}
+}
