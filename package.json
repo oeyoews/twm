@@ -1,0 +1,20 @@
+{
+  "name": "testmusic",
+  "version": "1.0.0",
+  "description": "twm",
+  "main": "index.js",
+  "scripts": {
+    "build": "tiddlywiki --output public --build index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/oeyoews/twm.git"
+  },
+  "keywords": [],
+  "author": "oeyoews <jyao4783@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/oeyoews/twm/issues"
+  },
+  "homepage": "https://gitlab.com/oeyoews/twm#readme"
+}
