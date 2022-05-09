@@ -1,6 +1,6 @@
-
-    build: tiddlywiki --output public --build index
-
 ## todo
-  <!--add build workflow for html -->
-  <!--update address-->
+
+* [x] add build workflow for html
+* [x] update address
+* config startup img
+* add readme with image
