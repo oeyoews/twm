@@ -8,3 +8,4 @@
 * [x] update address
 * [x] config startup img
 * add readme with image
+* splashscreen is conflict this plugin(ing)
