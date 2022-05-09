@@ -1,7 +1,9 @@
 created: 20180927082601825
-modified: 20220509172059853
+draft.of: $:/SplashScreen
+draft.title: $:/SplashScreen
+modified: 20220509172326667
 tags: $:/tags/RawMarkupWikified/TopBody
-title: $:/SplashScreen
+title: Draft of '$:/SplashScreen'
 type: text/vnd.tiddlywiki
 
 \import [[$:/core/ui/PageMacros]] [all[shadows+tiddlers]tag[$:/tags/Macro]!has[draft.of]]
