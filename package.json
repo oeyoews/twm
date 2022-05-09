@@ -2,7 +2,7 @@
   "name": "testmusic",
   "version": "1.0.0",
   "description": "twm",
-  "main": "index.js",
+  "license": "MIT",
   "scripts": {
     "start": "tiddlywiki --listen port=8081",
     "build": "tiddlywiki --output public --build index"
