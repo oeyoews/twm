@@ -18,16 +18,7 @@
 
 ## ✅ TODO
 
-* [ ] how to upgrade friendly(version number ?)
-* [ ] splashscreen is conflict this plugin(ing)
-* [ ] add link for img
-* [ ] vercel api favicon error
-* [ ] add edit button for settings music
-* [x] add readme with image
-* [x] add build workflow for html
-* [x] update address
-* [x] config startup img
-* [x] change new plugin icon colorful
+[TODO](docs/TODO.md)
 
 ## 🎤 FAQ
 
@@ -40,7 +31,7 @@ A: old $:/Splashscreen content may be conflict this plugin
 
 ## 🕐 UpdateTime
 
-2022-05-10T07:38:41+08:00
+2022-05-10T15:12:50
 
 ## 🍰 Status
 
