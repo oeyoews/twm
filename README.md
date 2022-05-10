@@ -7,6 +7,11 @@
 
 * embed aplayer to TiddlyWiki5
 
+## Related Link
+
+* [MetingJS](https://github.com/metowolf/MetingJS)
+* [aplayer](https://github.com/DIYgod/APlayer)
+
 ## 📑 USAGE
 
 * [settings](https://twms.vercel.app/#%24%3A%2Fplugins%2Foeyoews%2FTwm%2Fsettings)
