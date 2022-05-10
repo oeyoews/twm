@@ -19,6 +19,7 @@
 * [x] add build workflow for html
 * [x] update address
 * [x] config startup img
+* [ ] change new plugin icon colorful
 
 ## 🎤 FAQ
 
