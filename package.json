@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "tiddlywiki --listen port=8081",
-    "build": "tiddlywiki --output public --build index"
+    "build": "tiddlywiki --output public --build index && cp assets/*.ico public/"
   },
   "repository": {
     "type": "git",
