@@ -3,3 +3,5 @@ node_modules
 
 public/*
 !/public/favicon.png
+\$__theme.tid
+# '$__theme.tid'
