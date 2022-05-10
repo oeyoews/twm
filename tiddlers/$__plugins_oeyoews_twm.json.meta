@@ -1,0 +1,13 @@
+author: oeyoews
+created: 20220509150849652
+description: embed music player into Tiddlywiki5
+list: readme
+modified: 20220510060633454
+name: TiddlyWiki5 Music Player
+packaged-by: Gatha on 10th May 2022, 14:06:40
+plugin-type: plugin
+source: https://gitlab.com/oeyoews/twm
+tags: twm
+title: $:/plugins/oeyoews/twm
+type: application/json
+version: 0.3.2

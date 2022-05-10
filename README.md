@@ -33,11 +33,13 @@ Q: no work?
 
 A: old $:/Splashscreen content may be conflict this plugin
 
+> notes: disable this plugin by plugin not work
+
 
 ## 🕐 UpdateTime
 
 2022-05-10T07:38:41+08:00
 
-## ❄️ Status
+## 🍰 Status
 
 > Self-use tools, welcome to submit issues. Perfect...
