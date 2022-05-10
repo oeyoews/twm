@@ -2,7 +2,7 @@
 <img src="https://cdn.jsdelivr.net/gh/oeyoews/img/music-notes.png" style="border-radius: 5px; border: 5px solid cyan; box-shadow: 1px 5px 5px #0000004d;width:64px;" />
 </div>
 
-## Introduce
+## 👤 Introduce
 
 * embed aplayer to TiddlyWiki5
 
@@ -12,13 +12,13 @@
 
 ## ✅ TODO
 
-* [ ] add readme with image
 * [ ] splashscreen is conflict this plugin(ing)
+* [x] add readme with image
 * [x] add build workflow for html
 * [x] update address
 * [x] config startup img
 
-## FAQ
+## 🎤 FAQ
 
 
 > some console error
@@ -30,3 +30,5 @@ m801.music.126.net/20220510082204/7fc8f3332ab114807f3114d9436ebba6/jdymusic/obj/
 ## 🕐 UpdateTime
 
 2022-05-10T07:38:41+08:00
+
+:i
