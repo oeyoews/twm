@@ -19,19 +19,15 @@
 * [x] add build workflow for html
 * [x] update address
 * [x] config startup img
-* [ ] change new plugin icon colorful
+* [x] change new plugin icon colorful
+* add link for img
 
 ## 🎤 FAQ
 
 Q: no work?
 
-A: NOTE: old $:/Splashscreen content may be conflict this plugin
+A: old $:/Splashscreen content may be conflict this plugin
 
-> some console error
-
-```error
-m801.music.126.net/20220510082204/7fc8f3332ab114807f3114d9436ebba6/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/12560292155/e5d5/b559/6fbc/64b42ad1e51b9d4ecbd11af869319d5b.mp3:1          Failed to load resource: the server responded with a status of 403 ()
-```
 
 ## 🕐 UpdateTime
 
