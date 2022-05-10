@@ -23,6 +23,7 @@
 ## 🎤 FAQ
 
 Q: no work?
+
 A: NOTE: old $:/Splashscreen content may be conflict this plugin
 
 > some console error
@@ -35,4 +36,6 @@ m801.music.126.net/20220510082204/7fc8f3332ab114807f3114d9436ebba6/jdymusic/obj/
 
 2022-05-10T07:38:41+08:00
 
-:i
+## ❄️ Status
+
+> Self-use tools, welcome to submit issues. Perfect...
