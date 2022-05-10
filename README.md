@@ -13,6 +13,7 @@
 ## ✅ TODO
 
 * [ ] splashscreen is conflict this plugin(ing)
+* vercel api favicon error
 * [x] add readme with image
 * [x] add build workflow for html
 * [x] update address
