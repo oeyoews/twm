@@ -18,20 +18,15 @@
 
 ## ✅ TODO
 
-[TODO](docs/TODO.md)
+* [TODO](docs/TODO.md)
 
 ## 🎤 FAQ
 
-Q: no work?
-
-A: old $:/Splashscreen content may be conflict this plugin
-
-> notes: disable this plugin by plugin not work
-
+* [FAQ](docs/FAQ.md)
 
 ## 🕐 UpdateTime
 
-2022-05-10T15:12:50
+* 2022-05-10T15:12:50
 
 ## 🍰 Status
 
