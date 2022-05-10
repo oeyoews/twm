@@ -19,13 +19,13 @@
 ## ✅ TODO
 
 * [ ] splashscreen is conflict this plugin(ing)
+* [ ] add link for img
 * vercel api favicon error
 * [x] add readme with image
 * [x] add build workflow for html
 * [x] update address
 * [x] config startup img
 * [x] change new plugin icon colorful
-* add link for img
 
 ## 🎤 FAQ
 
