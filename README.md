@@ -18,9 +18,11 @@
 
 ## ✅ TODO
 
+* [ ] how to upgrade friendly(version number ?)
 * [ ] splashscreen is conflict this plugin(ing)
 * [ ] add link for img
-* vercel api favicon error
+* [ ] vercel api favicon error
+* [ ] add edit button for settings music
 * [x] add readme with image
 * [x] add build workflow for html
 * [x] update address
