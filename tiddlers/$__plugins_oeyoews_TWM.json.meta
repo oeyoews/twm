@@ -2,11 +2,11 @@ author: oeyoews
 created: 20220509150849652
 description: embed aplayer and metingjs into Tiddlywiki5
 list: readme license history
-modified: 20220509163534677
+modified: 20220509235557625
 name: TiddlyWiki5 Music Player
-packaged-by: Gatha on 10th May 2022, 00:35:38
+packaged-by: Gatha on 10th May 2022, 09:39:26
 plugin-type: plugin
-source: https://github.com/oeyoews/xxx
+source: https://gitlab.com/oeyoews/twm
 tags: music
 title: $:/plugins/oeyoews/TWM
 type: application/json
