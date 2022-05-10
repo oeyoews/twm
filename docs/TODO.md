@@ -11,3 +11,4 @@
 * [ ] vercel api favicon error
 * [ ] add edit button for settings music
 * [ ] setting better z-index for layouts
+* [ ] what's them disable mechanism?(can't manage tag?)
