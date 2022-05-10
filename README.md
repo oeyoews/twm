@@ -2,6 +2,7 @@
 <img src="https://cdn.jsdelivr.net/gh/oeyoews/img/music-notes.png" style="border-radius: 5px; border: 5px solid cyan; box-shadow: 1px 5px 5px #0000004d;width:64px;" />
 </div>
 
+
 ## 👤 Introduce
 
 * embed aplayer to TiddlyWiki5
@@ -21,6 +22,8 @@
 
 ## 🎤 FAQ
 
+Q: no work?
+A: NOTE: old $:/Splashscreen content may be conflict this plugin
 
 > some console error
 
