@@ -13,4 +13,4 @@
   * learn examples respawn.js
     * maybe use extra js file to use var to setup settings, like respawn
 * [ ] setup better z-index for layouts
-* [ ] what's them disable mechanism?(can't manage tag?)
+* [x] what's them disable mechanism?(can't manage tag?)
