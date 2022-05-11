@@ -18,3 +18,4 @@
 * [ ] setup better z-index for layouts
 * [x] disable lrc can't work
 * [ ] add preload for player
+* [ ] add starup to setup two theme: pc: notebook, phone: vanilla

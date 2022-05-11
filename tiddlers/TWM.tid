@@ -1,14 +1,18 @@
 created: 20220510122206130
-modified: 20220511022146055
+modified: 20220511024736910
 tags: docs
 title: TWM
 type: text/vnd.tiddlywiki
 
 <div style="text-align:center">
 
+{{$:/plugins/oeyoews/twm/docs/homepage}}
+
+{{$:/core/ui/Buttons/theme}}
+
 {{$:/plugins/oeyoews/twm/version}} 
 
-{{$:/plugins/oeyoews/twm/docs/homepage}}
+
 </div>
 
 <hr>
