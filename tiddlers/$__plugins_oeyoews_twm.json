@@ -24,24 +24,24 @@
 "$:/plugins/oeyoews/twm/docs/gradienttext": {
     "title": "$:/plugins/oeyoews/twm/docs/gradienttext",
     "created": "20220509171036341",
-    "modified": "20220510170516994",
+    "modified": "20220511045721474",
     "tags": "docs",
     "type": "text/vnd.tiddlywiki",
-    "text": "<a style=\"font-size:1rem;font-weight:bold;background: linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);-webkit-background-clip: text;color: transparent;\" href=\"https://gitlab.com/oeyoews/twm/\" target=\"_blank\">twm</a>",
+    "text": "<a style=\"font-size:1rem;font-weight:bold;background: linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);-webkit-background-clip: text;color: transparent;\" href=\"https://gitlab.com/oeyoews/twm/\" target=\"_blank\">TWM</a>",
     "revision": "0",
     "bag": "default"
 },
 
 "$:/plugins/oeyoews/twm/docs/homepage": {
-    "created": "20220509162413700",
-    "text": "[img[$:/plugins/oeyoews/twm/icon]]\n{{$:/plugins/oeyoews/twm/docs/gradienttext}}\n\n[[>>Show TWM Plugin<<|$:/plugins/oeyoews/twm]]\n\n[[README|https://gitlab.com/oeyoews/twm/-/blob/main/README.md]]",
     "title": "$:/plugins/oeyoews/twm/docs/homepage",
+    "caption": "HomePage",
+    "created": "20220509162413700",
     "modified": "20220511044300701",
     "tags": "docs twm",
     "type": "text/vnd.tiddlywiki",
-    "bag": "default",
-    "caption": "HomePage",
-    "revision": "2"
+    "text": "[img[$:/plugins/oeyoews/twm/icon]]\n{{$:/plugins/oeyoews/twm/docs/gradienttext}}\n\n[[>>Show TWM Plugin<<|$:/plugins/oeyoews/twm]]\n\n[[README|https://gitlab.com/oeyoews/twm/-/blob/main/README.md]]",
+    "revision": "0",
+    "bag": "default"
 },
 
 "$:/plugins/oeyoews/twm/icon": {
@@ -89,9 +89,9 @@
 },
 
 "$:/plugins/oeyoews/twm/plugin.info": {
-    "created": "20220509151145097",
     "text": "{\n    \"title\": \"$:/plugins/oeyoews/twm\",\n    \"name\": \"TiddlyWiki5 Music Player\",\n    \"description\": \"embed music player into Tiddlywiki5\",\n    \"author\": \"oeyoews\",\n    \"version\": \"v0.3.5\",\n    \"core-version\": \"5.2.2\",\n    \"source\": \"https://gitlab.com/oeyoews/twm\",\n    \"list\": \"readme settings\",\n    \"parent-plugin\": \"\",\n    \"dependents\": \"\",\n    \"plugin-type\": \"plugin\",\n    \"packaged-by\": \"Gatha on 11th May 2022, 12:46:42\"\n}",
     "type": "application/json",
+    "created": "20220509151145097",
     "modified": "20220511044642916",
     "title": "$:/plugins/oeyoews/twm/plugin.info",
     "revision": "0",
@@ -147,12 +147,12 @@
 },
 
 "TWM": {
-    "created": "20220510122206130",
-    "text": "<div style=\"text-align:center\">\n\n{{$:/core/ui/Buttons/theme}}\n\n{{$:/plugins/oeyoews/twm/docs/homepage}}\n\n</div>\n\n<hr>\n\n<div style=\"color: gray; text-align: center;font-size:12px;\">\n<$list filter=\"[!is[system]!has[draft.of]!sort[modified]limit[1]]\">\nUpdated\n<$view field=\"modified\" format=\"relativedate\"/>\n<div>",
     "title": "TWM",
+    "created": "20220510122206130",
     "modified": "20220511044422554",
     "tags": "docs",
     "type": "text/vnd.tiddlywiki",
+    "text": "<div style=\"text-align:center\">\n\n{{$:/core/ui/Buttons/theme}}\n\n{{$:/plugins/oeyoews/twm/docs/homepage}}\n\n</div>\n\n<hr>\n\n<div style=\"color: gray; text-align: center;font-size:12px;\">\n<$list filter=\"[!is[system]!has[draft.of]!sort[modified]limit[1]]\">\nUpdated\n<$view field=\"modified\" format=\"relativedate\"/>\n<div>",
     "revision": "0",
     "bag": "default"
 }}
