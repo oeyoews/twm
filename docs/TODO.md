@@ -14,4 +14,6 @@
 * [ ] add edit button for settings music
   * learn examples respawn.js
     * maybe use extra js file to use var to setup settings, like respawn
+    *
 * [ ] setup better z-index for layouts
+* [ ] add preload for player

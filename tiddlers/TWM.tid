@@ -1,7 +1,13 @@
 created: 20220510122206130
-modified: 20220510122234525
+modified: 20220511004345149
 tags: docs
 title: TWM
 type: text/vnd.tiddlywiki
 
 {{$:/plugins/oeyoews/twm/docs/homepage}}
+
+<div style="color: gray; text-align: center;font-size:12px;">
+<$list filter="[!is[system]!has[draft.of]!sort[modified]limit[1]]">
+Updated
+<$view field="modified" format="relativedate"/>
+<div>
