@@ -1,0 +1,11 @@
+created: 20220511110154327
+modified: 20220511110247900
+tags: $:/tags/Stylesheet
+title: remove iframe
+type: text/vnd.tiddlywiki
+
+.tc-tiddler-body > embed, .tc-tiddler-body > iframe {
+    width: 100%;
+    height: 600px; border: 0;
+
+}
