@@ -34,10 +34,10 @@
 
 "$:/plugins/oeyoews/twm/docs/homepage": {
     "created": "20220509162413700",
-    "text": "{{$:/plugins/oeyoews/twm/docs/gradienttext}}[img[$:/plugins/oeyoews/twm/icon]]\n\n[[>>Show TWM Plugin<<|$:/plugins/oeyoews/twm]]\n\n[[README|https://gitlab.com/oeyoews/twm/-/blob/main/README.md]]",
+    "text": "{{$:/plugins/oeyoews/twm/docs/gradienttext}}[img[$:/plugins/oeyoews/twm/icon]]\n\n[[>>Show TWM Plugin<<|$:/plugins/oeyoews/twm]]\n\n{{$:/plugins/oeyoews/twm/readme}}",
     "title": "$:/plugins/oeyoews/twm/docs/homepage",
     "caption": "HomePage",
-    "modified": "20220511050557137",
+    "modified": "20220511051354361",
     "tags": "docs twm",
     "type": "text/vnd.tiddlywiki",
     "revision": "0",
@@ -99,12 +99,12 @@
 },
 
 "$:/plugins/oeyoews/twm/readme": {
-    "title": "$:/plugins/oeyoews/twm/readme",
     "created": "20220509151829092",
-    "modified": "20220509163106235",
+    "text": "[[README|https://gitlab.com/oeyoews/twm/-/blob/main/README.md]]",
+    "title": "$:/plugins/oeyoews/twm/readme",
+    "modified": "20220511051333609",
     "tags": "",
     "type": "text/vnd.tiddlywiki",
-    "text": "* [[README|https://twms.vercel.app]]\n\n* [[DEMO|https://twms.vercel.app]]",
     "revision": "0",
     "bag": "default"
 },
@@ -147,12 +147,12 @@
 },
 
 "TWM": {
-    "created": "20220510122206130",
-    "text": "<div style=\"text-align:center\">\n\n\n\n{{$:/plugins/oeyoews/twm/docs/homepage}}\n\n</div>\n\n<hr>\n\n<div style=\"color: gray; text-align: center;font-size:12px;\">\n<$list filter=\"[!is[system]!has[draft.of]!sort[modified]limit[1]]\">\nUpdated\n<$view field=\"modified\" format=\"relativedate\"/>\n<div>",
     "title": "TWM",
+    "created": "20220510122206130",
     "modified": "20220511050648332",
     "tags": "docs",
     "type": "text/vnd.tiddlywiki",
+    "text": "<div style=\"text-align:center\">\n\n\n\n{{$:/plugins/oeyoews/twm/docs/homepage}}\n\n</div>\n\n<hr>\n\n<div style=\"color: gray; text-align: center;font-size:12px;\">\n<$list filter=\"[!is[system]!has[draft.of]!sort[modified]limit[1]]\">\nUpdated\n<$view field=\"modified\" format=\"relativedate\"/>\n<div>",
     "revision": "0",
     "bag": "default"
 }}
