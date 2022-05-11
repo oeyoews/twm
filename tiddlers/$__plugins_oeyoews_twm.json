@@ -33,13 +33,13 @@
 },
 
 "$:/plugins/oeyoews/twm/docs/homepage": {
+    "created": "20220509162413700",
+    "text": "{{$:/plugins/oeyoews/twm/docs/gradienttext}}[img[$:/plugins/oeyoews/twm/icon]]\n\n[[>>Show TWM Plugin<<|$:/plugins/oeyoews/twm]]\n\n[[README|https://gitlab.com/oeyoews/twm/-/blob/main/README.md]]",
     "title": "$:/plugins/oeyoews/twm/docs/homepage",
     "caption": "HomePage",
-    "created": "20220509162413700",
-    "modified": "20220511044300701",
+    "modified": "20220511050557137",
     "tags": "docs twm",
     "type": "text/vnd.tiddlywiki",
-    "text": "[img[$:/plugins/oeyoews/twm/icon]]\n{{$:/plugins/oeyoews/twm/docs/gradienttext}}\n\n[[>>Show TWM Plugin<<|$:/plugins/oeyoews/twm]]\n\n[[README|https://gitlab.com/oeyoews/twm/-/blob/main/README.md]]",
     "revision": "0",
     "bag": "default"
 },
@@ -147,12 +147,12 @@
 },
 
 "TWM": {
-    "title": "TWM",
     "created": "20220510122206130",
-    "modified": "20220511044422554",
+    "text": "<div style=\"text-align:center\">\n\n\n\n{{$:/plugins/oeyoews/twm/docs/homepage}}\n\n</div>\n\n<hr>\n\n<div style=\"color: gray; text-align: center;font-size:12px;\">\n<$list filter=\"[!is[system]!has[draft.of]!sort[modified]limit[1]]\">\nUpdated\n<$view field=\"modified\" format=\"relativedate\"/>\n<div>",
+    "title": "TWM",
+    "modified": "20220511050648332",
     "tags": "docs",
     "type": "text/vnd.tiddlywiki",
-    "text": "<div style=\"text-align:center\">\n\n{{$:/core/ui/Buttons/theme}}\n\n{{$:/plugins/oeyoews/twm/docs/homepage}}\n\n</div>\n\n<hr>\n\n<div style=\"color: gray; text-align: center;font-size:12px;\">\n<$list filter=\"[!is[system]!has[draft.of]!sort[modified]limit[1]]\">\nUpdated\n<$view field=\"modified\" format=\"relativedate\"/>\n<div>",
     "revision": "0",
     "bag": "default"
 }}
