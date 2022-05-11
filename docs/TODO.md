@@ -16,4 +16,5 @@
     * maybe use extra js file to use var to setup settings, like respawn
     *
 * [ ] setup better z-index for layouts
+* [x] disable lrc can't work
 * [ ] add preload for player

@@ -10,14 +10,36 @@
     "bag": "default"
 },
 
+"$:/plugins/oeyoews/twm/configuration": {
+    "title": "$:/plugins/oeyoews/twm/configuration",
+    "created": "20220510092944708",
+    "modified": "20220510170852099",
+    "tags": "twm",
+    "type": "text/vnd.tiddlywiki",
+    "text": "<table>\n  <tr>\n    <th align=\"left\">id:</th>\n\n    <td>\n      <$edit-text\n          tiddler=\"$:/plugins/oeyoews/twm/id\"\n          field=\"delay\"\n          tag=\"input\"\n          default=\"3218667513\" />\n    </td>\n    <th align=\"left\">platform:</th>   \n\n  <td>\n      <$edit-text\n          tiddler=\"$:/plugins/oeyoews/twm/platform\"\n          field=\"delay\"\n          tag=\"input\"\n          default=\"netease\" />\n    </td>\n\n  </tr>\n</table>",
+    "revision": "0",
+    "bag": "default"
+},
+
+"$:/plugins/oeyoews/twm/docs/gradienttext": {
+    "title": "$:/plugins/oeyoews/twm/docs/gradienttext",
+    "created": "20220509171036341",
+    "modified": "20220510170516994",
+    "tags": "docs",
+    "type": "text/vnd.tiddlywiki",
+    "text": "<a style=\"font-size:1rem;font-weight:bold;background: linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);-webkit-background-clip: text;color: transparent;\" href=\"https://gitlab.com/oeyoews/twm/\" target=\"_blank\">twm</a>",
+    "revision": "0",
+    "bag": "default"
+},
+
 "$:/plugins/oeyoews/twm/docs/homepage": {
     "title": "$:/plugins/oeyoews/twm/docs/homepage",
     "caption": "HomePage",
     "created": "20220509162413700",
-    "modified": "20220510055417842",
+    "modified": "20220510170544424",
     "tags": "docs twm",
     "type": "text/vnd.tiddlywiki",
-    "text": "[img[$:/plugins/oeyoews/twm/icon]]\n{{$:/plugins/oeyoews/twm/misc/gradienttext}}\n\n[[Music|$:/plugins/oeyoews/twm]]\n\n[[README|https://gitlab.com/oeyoews/twm/-/blob/main/README.md]]",
+    "text": "[img[$:/plugins/oeyoews/twm/icon]]\n{{$:/plugins/oeyoews/twm/docs/gradienttext}}\n\n[[Music|$:/plugins/oeyoews/twm]]\n\n[[README|https://gitlab.com/oeyoews/twm/-/blob/main/README.md]]",
     "revision": "0",
     "bag": "default"
 },
@@ -29,6 +51,16 @@
     "created": "20220510013852090",
     "modified": "20220510054713702",
     "tags": "twm",
+    "revision": "0",
+    "bag": "default"
+},
+
+"$:/plugins/oeyoews/twm/id": {
+    "title": "$:/plugins/oeyoews/twm/id",
+    "created": "20220510170350358",
+    "delay": "",
+    "modified": "20220510170436943",
+    "type": "text/vnd.tiddlywiki",
     "revision": "0",
     "bag": "default"
 },
@@ -46,22 +78,21 @@
     "bag": "default"
 },
 
-"$:/plugins/oeyoews/twm/misc/gradienttext": {
-    "title": "$:/plugins/oeyoews/twm/misc/gradienttext",
-    "created": "20220509171036341",
-    "modified": "20220510055313483",
-    "tags": "docs",
+"$:/plugins/oeyoews/twm/platform": {
+    "title": "$:/plugins/oeyoews/twm/platform",
+    "created": "20220510170854983",
+    "delay": "",
+    "modified": "20220511020821461",
     "type": "text/vnd.tiddlywiki",
-    "text": "<a style=\"font-size:1rem;font-weight:bold;background: linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);-webkit-background-clip: text;color: transparent;\" href=\"https://gitlab.com/oeyoews/twm/\" target=\"_blank\">twm</a>",
     "revision": "0",
     "bag": "default"
 },
 
 "$:/plugins/oeyoews/twm/plugin.info": {
-    "text": "{\n    \"title\": \"$:/plugins/oeyoews/twm\",\n    \"name\": \"TiddlyWiki5 Music Player\",\n    \"description\": \"embed music player into Tiddlywiki5\",\n    \"author\": \"oeyoews\",\n    \"version\": \"0.3.2\",\n    \"core-version\": \"5.2.2\",\n    \"source\": \"https://gitlab.com/oeyoews/twm\",\n    \"list\": \"readme\",\n    \"parent-plugin\": \"\",\n    \"dependents\": \"\",\n    \"plugin-type\": \"plugin\",\n    \"packaged-by\": \"Gatha on 10th May 2022, 15:00:23\"\n}",
-    "type": "application/json",
     "created": "20220509151145097",
-    "modified": "20220510070023629",
+    "text": "{\n    \"title\": \"$:/plugins/oeyoews/twm\",\n    \"name\": \"TiddlyWiki5 Music Player\",\n    \"description\": \"embed music player into Tiddlywiki5\",\n    \"author\": \"oeyoews\",\n    \"version\": \"v0.3.4\",\n    \"core-version\": \"5.2.2\",\n    \"source\": \"https://gitlab.com/oeyoews/twm\",\n    \"list\": \"readme settings\",\n    \"parent-plugin\": \"\",\n    \"dependents\": \"\",\n    \"plugin-type\": \"plugin\",\n    \"packaged-by\": \"Gatha on 11th May 2022, 10:17:45\"\n}",
+    "type": "application/json",
+    "modified": "20220511021745430",
     "title": "$:/plugins/oeyoews/twm/plugin.info",
     "revision": "0",
     "bag": "default"
@@ -83,12 +114,12 @@
     "caption": "BodyFooter",
     "created": "20211001231029099",
     "creator": "Télumire",
-    "modified": "20220510060528475",
+    "modified": "20220511014935396",
     "modifier": "oeyoews",
     "tagging": "after",
     "tags": "$:/tags/RawMarkupWikified/BottomBody twm",
     "type": "text/vnd.tiddlywiki",
-    "text": "<!-- https://ftzzloo.com/hexo-add-aplayer-plugins/ -->\n\n`<meting-js \n        id=\"3218667513\"\n        server=\"netease\"\n        order=\"random\" \n        type=\"playlist\" \n        fixed=\"true\" \n        preload=\"auto\"\n        loop=\"all\" \n        theme=\"cyan\" \n        mutex=\"true\" \n        lyctype=\"0\" \n        list-olded=\"true\">`\n`</meting-js>`",
+    "text": "<!-- https://ftzzloo.com/hexo-add-aplayer-plugins/ -->\n\n<!-- lrc-type=\"0\" disable show lrc -->\n\n`<meting-js \n        id=\"3218667513\"\n        server=\"netease\"\n        order=\"random\" \n        type=\"playlist\" \n        fixed=\"true\" \n        preload=\"auto\"\n        loop=\"all\" \n        theme=\"cyan\" \n        mutex=\"true\" \n        list-olded=\"true\">`\n`</meting-js>`",
     "revision": "0",
     "bag": "default"
 },
@@ -102,5 +133,13 @@
     "text": "<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/gh/DIYgod/APlayer/dist/APlayer.min.css\">",
     "revision": "0",
     "bag": "default"
+},
+
+"$:/plugins/oeyoews/twm/version": {
+    "created": "20220511021612209",
+    "text": "{{$:/plugins/oeyoews/twm!!version}}",
+    "tags": "",
+    "title": "$:/plugins/oeyoews/twm/version",
+    "modified": "20220511021708811"
 }}
 }
