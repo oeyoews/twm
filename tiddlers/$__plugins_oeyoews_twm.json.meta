@@ -2,12 +2,12 @@ author: oeyoews
 created: 20220509150849652
 description: Embed music player into Tiddlywiki5
 list: readme settings
-modified: 20220513162130954
+modified: 20220513164956117
 name: TiddlyWiki5 Music Player
-packaged-by: Gatha on 14th May 2022, 00:29:21
+packaged-by: Gatha on 14th May 2022, 00:57:44
 plugin-type: plugin
 source: https://gitlab.com/oeyoews/twm
 tags: twm
 title: $:/plugins/oeyoews/twm
 type: application/json
-version: v0.3.11
+version: v0.3.12
