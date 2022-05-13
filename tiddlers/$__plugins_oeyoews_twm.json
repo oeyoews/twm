@@ -112,9 +112,10 @@
 "$:/plugins/oeyoews/twm/settings": {
     "title": "$:/plugins/oeyoews/twm/settings",
     "caption": "BodyFooter",
+    "code-body": "yes",
     "created": "20211001231029099",
     "creator": "Télumire",
-    "modified": "20220511014935396",
+    "modified": "20220511145317266",
     "modifier": "oeyoews",
     "tagging": "after",
     "tags": "$:/tags/RawMarkupWikified/BottomBody twm",
@@ -147,14 +148,14 @@
 },
 
 "TWM": {
-    "created": "20220510122206130",
-    "text": "<div style=\"text-align:center\">\n\n\n\n{{$:/plugins/oeyoews/twm/docs/homepage}}\n\n</div>\n\n<hr>\n\n<div style=\"color: gray; text-align: center;font-size:12px;\">\n<$list filter=\"[!is[system]!has[draft.of]!sort[modified]limit[1]]\">\nUpdated\n<$view field=\"modified\" format=\"relativedate\"/>\n<div>",
     "title": "TWM",
+    "created": "20220510122206130",
+    "icon": "$:/plugins/oeyoews/twm/icon",
     "modified": "20220511111856686",
     "tags": "docs",
     "type": "text/vnd.tiddlywiki",
+    "text": "<div style=\"text-align:center\">\n\n\n\n{{$:/plugins/oeyoews/twm/docs/homepage}}\n\n</div>\n\n<hr>\n\n<div style=\"color: gray; text-align: center;font-size:12px;\">\n<$list filter=\"[!is[system]!has[draft.of]!sort[modified]limit[1]]\">\nUpdated\n<$view field=\"modified\" format=\"relativedate\"/>\n<div>",
     "revision": "0",
-    "bag": "default",
-    "icon": "$:/plugins/oeyoews/twm/icon"
+    "bag": "default"
 }}
 }
