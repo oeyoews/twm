@@ -9,6 +9,10 @@
 
 * embed aplayer to TiddlyWiki5
 
+## Note
+
+* need reload tw5 after install this plugin
+
 ## Related Link
 
 * [MetingJS](https://github.com/metowolf/MetingJS)

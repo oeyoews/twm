@@ -19,3 +19,4 @@
 * [x] disable lrc can't work
 * [ ] add preload for player
 * [ ] add starup to setup two theme: pc: notebook, phone: vanilla
+* [ ] autoplay can't work
