@@ -1,13 +1,11 @@
 # 🎉 Welcom to [TWM](https://twms.vercel.app/)
 
-<div style="text-align: center;">
-<img src="https://cdn.jsdelivr.net/gh/oeyoews/img/music-notes.png" style="border-radius: 5px; border: 5px solid cyan; box-shadow: 1px 5px 5px #0000004d;width:64px;" />
-</div>
+<img src="https://cdn.jsdelivr.net/gh/oeyoews/img/music-notes.png"/>
 
 
 ## 👤 Introduce
 
-* embed aplayer to TiddlyWiki5
+*  A player in TiddlyWiki5
 
 ## Note
 
@@ -16,11 +14,11 @@
 ## Related Link
 
 * [MetingJS](https://github.com/metowolf/MetingJS)
-* [aplayer](https://github.com/DIYgod/APlayer)
+* [Aplayer](https://github.com/DIYgod/APlayer)
 
 ## 📑 USAGE
 
-* [settings](https://twms.vercel.app/#%24%3A%2Fplugins%2Foeyoews%2FTwm%2Fsettings)
+* [Settings](https://twms.vercel.app/#%24%3A%2Fplugins%2Foeyoews%2FTwm%2Fsettings)
 
 ## ✅ TODO
 
@@ -32,9 +30,9 @@
 
 ## 🕐 UpdateTime
 
-* 2022-05-10T15:12:50
+2022-05-14T00:16:30
 
 ## 🍰 Status
 
-> Self-use tools, welcome to submit issues. Perfect...
+* Self-use tools, welcome to submit issues. Perfect...
 
