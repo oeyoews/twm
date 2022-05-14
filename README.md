@@ -6,7 +6,7 @@
 
 ## 👤 Introduce
 
-*  A player in TiddlyWiki5
+* A player in TiddlyWiki5
 
 ## 🥭 Usage
 
@@ -25,7 +25,6 @@
 * [MetingJS](https://github.com/metowolf/MetingJS)
 * [Aplayer](https://github.com/DIYgod/APlayer)
 
-
 ## 🍰 Status
 
 * Self-use tools, welcome to submit issues. Perfect...
@@ -33,5 +32,3 @@
 ## 🕐 UpdateTime
 
 > 2022-05-14T18:00:54
-
-
