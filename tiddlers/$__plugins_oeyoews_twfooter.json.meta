@@ -1,8 +1,10 @@
+author: oeyoews
 created: 20220514041042772
-modified: 20220514055833981
-packaged-by: Gatha on 14th May 2022, 13:58:36
+icon: $:/plugins/oeyoews/twfooter/icon
+modified: 20220514142824325
+packaged-by: Gatha on 14th May 2022, 22:33:05
 plugin-type: plugin
 tags: 
 title: $:/plugins/oeyoews/twfooter
 type: application/json
-version: v0.0.2
+version: v0.0.3
