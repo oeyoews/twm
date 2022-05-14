@@ -2,23 +2,15 @@
 
 <img src="https://cdn.jsdelivr.net/gh/oeyoews/img/music-notes.png"/>
 
+> ⚠️ Need reload your TiddlyWiki5 ar reboot your application fter install this TWM plugin
 
 ## 👤 Introduce
 
 *  A player in TiddlyWiki5
 
-## Note
+## 🥭 Usage
 
-* need reload tw5 after install this plugin
-
-## Related Link
-
-* [MetingJS](https://github.com/metowolf/MetingJS)
-* [Aplayer](https://github.com/DIYgod/APlayer)
-
-## 📑 USAGE
-
-* [Settings](https://twms.vercel.app/#%24%3A%2Fplugins%2Foeyoews%2FTwm%2Fsettings)
+* Do nothing, just enjoy 🎵 😄
 
 ## ✅ TODO
 
@@ -28,11 +20,17 @@
 
 * [FAQ](docs/FAQ.md)
 
-## 🕐 UpdateTime
+## 🔗 Related Link
 
-2022-05-14T00:16:30
+* [MetingJS](https://github.com/metowolf/MetingJS)
+* [Aplayer](https://github.com/DIYgod/APlayer)
+
 
 ## 🍰 Status
 
 * Self-use tools, welcome to submit issues. Perfect...
+
+## 🕐 UpdateTime
+
+> 2022-05-14T18:00:54
 
