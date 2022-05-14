@@ -124,6 +124,10 @@
     "created": "20220513164052878",
     "text": "",
     "title": "$:/plugins/oeyoews/twm/releasetocpl",
+    "modified": "20220514122410546",
+    "tags": "$:/tags/PluginWiki",
+    "type": "text/vnd.tiddlywiki",
+    "bag": "default",
     "cpl.author": "oeyoews",
     "cpl.core-version": ">=5.2.2",
     "cpl.documentation": "https://gitlab.com/oeyoews/twm/",
@@ -133,11 +137,9 @@
     "cpl.title": "$:/plugins/oeyoews/twm",
     "cpl.uri": "https://twms.vercel.app/index.html",
     "description": "A music player in TiddlyWiki5",
-    "modified": "20220514120224330",
-    "tags": "$:/tags/PluginWiki",
-    "type": "text/vnd.tiddlywiki",
-    "revision": "0",
-    "bag": "default"
+    "icon": "🎵",
+    "revision": "2",
+    "page-cover": "https://images.unsplash.com/photo-1483412033650-1015ddeb83d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fG11c2ljfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
 },
 
 "$:/plugins/oeyoews/twm/settings": {
@@ -179,13 +181,13 @@
 },
 
 "Hello TWM": {
-    "created": "20220510122206130",
-    "text": "{{$:/plugins/oeyoews/twm/docs/homepage}}\n",
     "title": "Hello TWM",
+    "created": "20220510122206130",
     "icon": "$:/plugins/oeyoews/twm/icon",
     "modified": "20220514120112214",
     "tags": "docs",
     "type": "text/vnd.tiddlywiki",
+    "text": "{{$:/plugins/oeyoews/twm/docs/homepage}}\n",
     "revision": "0",
     "bag": "default"
 }}
