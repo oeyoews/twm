@@ -99,29 +99,31 @@
 },
 
 "$:/plugins/oeyoews/twm/readme": {
-    "title": "$:/plugins/oeyoews/twm/readme",
     "created": "20220509151829092",
-    "modified": "20220511051333609",
+    "text": "[[README|https://gitlab.com/oeyoews/twm/-/blob/main/README.md]]\n\nEmbed music player into Tiddlywiki5\n ",
+    "title": "$:/plugins/oeyoews/twm/readme",
+    "modified": "20220514094705074",
     "tags": "",
     "type": "text/vnd.tiddlywiki",
-    "text": "[[README|https://gitlab.com/oeyoews/twm/-/blob/main/README.md]]",
     "revision": "0",
     "bag": "default"
 },
 
-"$:/plugins/oeyoews/twm/releasetocpl": {
-    "text": "",
-    "type": "application/json",
+"$:/plugins/oeyoews/twm/releasetocpl2": {
+    "title": "$:/plugins/oeyoews/twm/releasetocpl2",
     "cpl.author": "oeyoews",
+    "cpl.core-version": ">=5.2.2",
+    "cpl.documentation": "https://gitlab.com/oeyoews/twm/",
+    "cpl.name": "TWM",
     "cpl.plugin-type": "plugin",
-    "cpl.source": "https://gitlab.com/oeyoews/twm",
-    "cpl.uri": "https://twms.vercel.app",
+    "cpl.source": "https://gitlab.com/oeyoews/twm/",
+    "cpl.title": "$:/plugins/oeyoews/twm",
+    "cpl.uri": "https://twms.vercel.app/index.html",
     "created": "20220513164052878",
     "description": "A music player in TiddlyWiki5",
-    "modified": "20220513164938698",
-    "name": "TWM",
+    "modified": "20220514065753075",
     "tags": "$:/tags/PluginWiki",
-    "title": "$:/plugins/oeyoews/twm/releasetocpl",
+    "type": "text/vnd.tiddlywiki",
     "revision": "0",
     "bag": "default"
 },
