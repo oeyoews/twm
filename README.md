@@ -2,7 +2,7 @@
 
 <img src="https://cdn.jsdelivr.net/gh/oeyoews/img/music-notes.png"/>
 
-> ⚠️ Need reload your TiddlyWiki5 ao reboot your application fter install this TWM plugin
+> ⚠️ Need reload your TiddlyWiki5 or reboot your application fter install this TWM plugin
 
 ## 👤 Introduce
 
@@ -33,4 +33,5 @@
 ## 🕐 UpdateTime
 
 > 2022-05-14T18:00:54
+
 
