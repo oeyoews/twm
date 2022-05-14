@@ -1,10 +1,10 @@
 author: oeyoews
 created: 20220514041042772
-icon: $:/plugins/oeyoews/twfooter/icon
-modified: 20220514142824325
-packaged-by: Gatha on 14th May 2022, 22:33:05
+list: readme
+modified: 20220514164256230
+packaged-by: Gatha on 15th May 2022, 00:42:59
 plugin-type: plugin
 tags: 
 title: $:/plugins/oeyoews/twfooter
 type: application/json
-version: v0.0.3
+version: v0.0.5
