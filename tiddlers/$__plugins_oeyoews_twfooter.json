@@ -1,0 +1,31 @@
+{"tiddlers": {
+"$:/plugins/oeyoews/twfooter/footer": {
+    "created": "20211001231029099",
+    "text": "`<footer>`\n<$list filter=\"[!is[system]!has[draft.of]!sort[modified]limit[1]]\">\nUpdated <$view field=\"modified\" format=\"relativedate\"/>\n`</footer>`",
+    "title": "$:/plugins/oeyoews/twfooter/footer",
+    "creator": "Télumire",
+    "modified": "20220514055747549",
+    "modifier": "oeyoews",
+    "tags": "$:/footer $:/tags/RawMarkupWikified/BottomBody",
+    "type": "text/vnd.tiddlywiki",
+    "bag": "default",
+    "caption": "BodyFooter",
+    "code-body": "yes",
+    "tagging": "after",
+    "revision": "1"
+},
+
+"$:/plugins/oeyoews/twfooter/style": {
+    "title": "$:/plugins/oeyoews/twfooter/style",
+    "text": "footer {\n\tflex: 1 1 auto;\n\tdisplay:flex !important;\n\tjustify-content:center;\n\talign-items: center;\n\tz-index:-1;\n\tmin-height:25px;\n\tcolor: gray;\n\tuser-select: none;\n\tpadding: 2px;\n\tfont-size: 50%;\n}\n\nfooter .inline-icon svg{\nheight:1em;\n}",
+    "created": "20211001231718589",
+    "creator": "oeyoews",
+    "cs": "",
+    "modified": "20220514051740412",
+    "modifier": "oeyoews",
+    "tags": "$:/tags/Stylesheet $:/footer",
+    "type": "text/css",
+    "revision": "0",
+    "bag": "default"
+}}
+}
