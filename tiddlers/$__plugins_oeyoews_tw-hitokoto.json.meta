@@ -1,11 +1,12 @@
 author: oeyoews
 created: 20220516151359837
 description: Hitokoto TW
-modified: 20220516151603134
+list: readme
+modified: 20220516154622902
 name: TW Hitokoto
-packaged-by: Gatha on 16th May 2022, 23:42:44
+packaged-by: Gatha on 16th May 2022, 23:46:56
 plugin-type: plugin
 tags: 
 title: $:/plugins/oeyoews/tw-hitokoto
 type: application/json
-version: v0.0.1
+version: v0.0.2
