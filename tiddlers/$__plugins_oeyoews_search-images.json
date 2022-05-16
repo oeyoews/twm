@@ -1,0 +1,116 @@
+{"tiddlers": {
+"$:/plugins/oeyoews/search-images/icon": {
+    "created": "20220516180924734",
+    "text": "<svg width=\"22pt\" height=\"22pt\" viewBox=\"0 0 128 128\" class=\"tc-image-plugin-generic-plugin tc-image-button\" fill=\"orange\"><path fill-rule=\"evenodd\" d=\"M40.397 76.446V95.34h14.12l-.001-.005a6.912 6.912 0 005.364-11.593l.046-.023a6.912 6.912 0 119.979.526l.086.055a6.914 6.914 0 004.408 10.948l-.023.092h21.32V75.568l-.15.038a6.912 6.912 0 00-11.593-5.364l-.022-.046a6.912 6.912 0 11.526-9.979l.055-.086a6.914 6.914 0 0010.948-4.408c.079.018.158.038.236.059v-15.74h-21.32l.023-.094a6.914 6.914 0 01-4.408-10.947 10.23 10.23 0 00-.086-.055 6.912 6.912 0 10-9.979-.526l-.046.023a6.912 6.912 0 01-5.364 11.593l.001.005h-14.12v12.847A6.912 6.912 0 0129.5 59.843l-.054.086a6.912 6.912 0 10-.526 9.979l.023.046a6.912 6.912 0 0111.455 6.492zM64 0l54.56 32v64L64 128 9.44 96V32L64 0z\"/></svg>",
+    "title": "$:/plugins/oeyoews/search-images/icon",
+    "modified": "20220516180926178",
+    "tags": "",
+    "type": "text/vnd.tiddlywiki"
+},
+
+"$:/plugins/oeyoews/search-images/readme": {
+    "created": "20220516180933443",
+    "text": "http://www.telumire.be/TiddlyTweaks/index.html#:%5B%5B%24:/ThemeTweaks/FaviconWizard%5D%5D",
+    "title": "$:/plugins/oeyoews/search-images/readme",
+    "modified": "20220516180947415",
+    "type": "text/vnd.tiddlywiki",
+    "tags": ""
+},
+
+"$:/plugins/oeyoews/search-images/version": {
+    "created": "20220516180954950",
+    "text": "{{ $:/plugins/oeyoews/search-images!!version}}",
+    "title": "$:/plugins/oeyoews/search-images/version",
+    "modified": "20220516181024477",
+    "type": "text/vnd.tiddlywiki",
+    "tags": ""
+},
+
+"$:/showInfo/search/template": {
+    "created": "20210911022445519",
+    "text": "<span class=\"system-image-search\">\n<div class=\"search-list-container\">\n<$edit-text tiddler=<<qualify $:/temp/search>> field=\"text\" tag=\"input\" default=\"\" placeholder={{$:/showInfo/search/placeholder}} class=\"tc-edit-texteditor\"/>\n<$reveal state=<<qualify $:/temp/search>> type=\"nomatch\" text=\"\">\n<$button class=\"tc-btn-invisible\" tooltip=\"cancel search\"> \n<$action-setfield $tiddler=<<qualify $:/temp/search>> text=\"\"/>\n{{$:/core/images/close-button}}\n</$button>\n</$reveal>\n<$button class=\"tc-btn-invisible\" tooltip=\"advanced search\"> \n<$action-listops \n$tiddler=<<qualify $:/temp/advanced-search/show>> \n$field=\"text\" \n$subfilter=\"+[toggle[yes],[no]]\"/>\n{{$:/core/images/advanced-search-button}}\n</$button>\n</div>\n\n<$reveal default={{{ [[$:/temp/advanced-search/show]addsuffix<qualify>get[text]] }}} type=\"match\" text=\"yes\">\n<h3>Advanced search</h3>\n<div class=\"search-list-container\">\n<$edit-text tiddler=<<qualify $:/temp/filter>> field=\"text\" tag=\"input\" default=\"[search:[]]\" placeholder=\"write an additional filter here\" class=\"tc-edit-texteditor\"/>\n<$reveal state=<<qualify $:/temp/filter>> type=\"nomatch\" text=\"\">\n<$button class=\"tc-btn-invisible\">\n<$action-setfield $tiddler=<<qualify $:/temp/filter>> text=\"[search:[]]\"/>\n{{$:/core/images/close-button}}\n</$button>\n</$reveal>\n</div>\n</$reveal>\n\n\n<$set name=search tiddler=<<qualify $:/temp/search>> field=\"text\">\n<$set name=filter tiddler=<<qualify $:/temp/filter>> field=\"text\">\n<$set name=filter value={{{ [<filter>match[]then[+]else<filter>] }}}>\n\n<ul class=<<list-class>> style=<<list-style>> >\n<$list filter=\"[subfilter<search-list>filter<filter>]+[search:*<search>]\" variable=\"item\" template={{{ [<item-template>is[blank]then[$:/showInfo/search/titles]else<item-template>] }}} />\n</ul>\n\n</$set>\n</$set>\n</$set>\n</span>",
+    "title": "$:/showInfo/search/template",
+    "bag": "default",
+    "description": "See $:/showInfo/search/SystemImage for an example of how to use this template.",
+    "modified": "20211108114621438",
+    "revision": "0",
+    "tags": "$:/showInfo/search $:/showInfo",
+    "task": "doing"
+},
+
+"$:/showInfo/tagging": {
+    "created": "20210907002753004",
+    "text": "",
+    "title": "$:/showInfo/tagging",
+    "bag": "default",
+    "description": "todo : add a field tagging-filter",
+    "modified": "20211004125159915",
+    "revision": "0",
+    "tagging": "after",
+    "tags": "$:/showInfo/tagging $:/showInfo",
+    "task": "todo"
+},
+
+"$:/showInfo/search/SystemImage/search/style": {
+    "title": "$:/showInfo/search/SystemImage/search/style",
+    "type": "",
+    "text": "<pre>\n.search-list-container {\ndisplay:flex;\nalign-items: center;\n}\n\n.search-list-container button {\npadding:.5em;\n}\n\n.system-image-search svg {\n\nfill:<<color foreground>>;\n\n}\n\n.tc-edit-texteditor {\n  width:100%;\n\tpadding: 3px 3px 3px 3px;\n\tborder: 1px solid rgb(63, 63, 63);\n\tline-height: 1.3em;\n\t-webkit-appearance: none;\n}",
+    "bag": "default",
+    "created": "20210911022400630",
+    "fill-fallback": "",
+    "modified": "20210922022416173",
+    "revision": "0",
+    "tags": "$:/tags/Stylesheet $:/showInfo/search $:/showInfo"
+},
+
+"$:/showInfo/search": {
+    "title": "$:/showInfo/search",
+    "text": "",
+    "bag": "default",
+    "created": "20210922020055129",
+    "modified": "20210922020056591",
+    "revision": "0",
+    "tagging": "after",
+    "tags": "$:/showInfo"
+},
+
+"$:/showInfo/search/placeholder": {
+    "created": "20211108112823311",
+    "text": "search..",
+    "tags": "$:/showInfo $:/showInfo/search",
+    "title": "$:/showInfo/search/placeholder",
+    "modified": "20211108112906858"
+},
+
+"$:/showInfo/search/list/titles": {
+    "created": "20211108110810371",
+    "text": "<$vars\n\nsearch-list=\"[all[tiddlers+shadows]tag[tip]]\"\nitem-template=\"$:/showInfo/search/titles\"\nlist-class=\"\"\nlist-style=\"\"\"  \"\"\"\n\n>\n\n{{$:/showInfo/search/template}}\n\n</$vars>",
+    "title": "$:/showInfo/search/list/titles",
+    "bag": "default",
+    "modified": "20211108112642587",
+    "revision": "0",
+    "tags": "$:/showInfo $:/showInfo/search"
+},
+
+"$:/showInfo/search/img": {
+    "created": "20210911222821934",
+    "text": "<$button message=\"tm-copy-to-clipboard\" param=<<item>> class=\"tc-btn-invisible search-list-img\" tooltip=<<item>>>\n<$transclude tiddler=<<item>>/>\n</$button>",
+    "title": "$:/showInfo/search/img",
+    "bag": "default",
+    "hide-body": "yes",
+    "modified": "20211108112423572",
+    "revision": "0",
+    "tags": "$:/showInfo/search $:/showInfo"
+},
+
+"$:/showInfo/search/SystemImage": {
+    "created": "20210911212256922",
+    "text": "List of all system images (ie, tiddlers tagged {{$:/tags/Image||$:/core/ui/TagTemplate}}). Click on an icon to copy its title !\n\n<$vars\nsearch-list=\"[[$:/tags/Image]tagging[]]\"\nitem-template=\"$:/showInfo/search/img\"\nlist-class=\"\"\nlist-style=\"\"\"padding:0; \"\"\"\n>\n{{{[<item-template>is[blank]then[$:/showInfo/search/list/titles]else<item-template>]}}}\n{{$:/showInfo/search/template}}\n</$vars>",
+    "title": "$:/showInfo/search/SystemImage",
+    "bag": "default",
+    "caption": "images",
+    "modified": "20220131143020491",
+    "revision": "0",
+    "tags": "$:/tags/SideBar $:/showInfo/search $:/showInfo"
+}}
+}
