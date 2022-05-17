@@ -3,39 +3,80 @@
     "plugins": [
         "tiddlywiki/tiddlyweb",
         "tiddlywiki/filesystem",
+        "tiddlywiki/pluginlibrary",
+        "oeyoews/twm",
         "tiddlywiki/highlight"
     ],
+  "includeWikis": [
+  	],
     "themes": [
       "tiddlywiki/vanilla"
     ],
     "build": {
       "index": [
         "--rendertiddler",
+        "$:/plugins/tiddlywiki/tiddlyweb/save/offline",
+        "index.html",
+        "text/plain"
+      ],
+     "library": [
+            "--makelibrary",
+            "$:/UpgradeLibrary",
+            "--savelibrarytiddlers",
+            "$:/UpgradeLibrary",
+            "[prefix[$:/plugins/oeyoews/]]",
+            "recipes/library/tiddlers/",
+            "$:/UpgradeLibrary/List",
+            "--savetiddler",
+            "$:/UpgradeLibrary/List",
+            "recipes/library/tiddlers.json",
+            "--rendertiddler",
+            "$:/plugins/tiddlywiki/pluginlibrary/library.template.html",
+            "index.html",
+            "text/plain",
+            "--deletetiddlers",
+            "[[$:/UpgradeLibrary]][[$:/UpgradeLibrary/List]]"
+        ],
+      "externalimages": [
+        "--savetiddlers",
+      "[is[image]]",
+      "images",
+      "--setfield",
+      "[is[image]]",
+      "_canonical_uri",
+      "$:/core/templates/canonical-uri-external-image",
+      "text/plain",
+      "--setfield",
+      "[is[image]]",
+      "text",
+      "",
+      "text/plain",
+      "--rendertiddler",
       "$:/plugins/tiddlywiki/tiddlyweb/save/offline",
-      "index.html",
+      "externalimages.html",
       "text/plain"
       ],
       "static": [
         "--rendertiddler",
-      "$:/core/templates/static.template.html",
-      "static.html",
-      "text/plain",
-      "--rendertiddler",
-      "$:/core/templates/alltiddlers.template.html",
-      "alltiddlers.html",
-      "text/plain",
-      "--rendertiddlers",
-      "[!is[system]]",
-      "$:/core/templates/static.tiddler.html",
-      "static",
-      "text/plain",
-      "--rendertiddler",
-      "$:/core/templates/static.template.css",
-      "static/static.css",
-      "text/plain"
+        "$:/core/templates/static.template.html",
+        "static.html",
+        "text/plain",
+        "--rendertiddler",
+        "$:/core/templates/alltiddlers.template.html",
+        "alltiddlers.html",
+        "text/plain",
+        "--rendertiddlers",
+        "[!is[system]]",
+        "$:/core/templates/static.tiddler.html",
+        "static",
+        "text/plain",
+        "--rendertiddler",
+        "$:/core/templates/static.template.css",
+        "static/static.css",
+        "text/plain"
       ]
     },
     "config": {
-		"retain-original-tiddler-path": true
+      "retain-original-tiddler-path": true
 	}
 }
