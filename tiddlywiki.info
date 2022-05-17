@@ -4,7 +4,6 @@
         "tiddlywiki/tiddlyweb",
         "tiddlywiki/filesystem",
         "tiddlywiki/pluginlibrary",
-        "oeyoews/twm",
         "tiddlywiki/highlight"
     ],
   "includeWikis": [
