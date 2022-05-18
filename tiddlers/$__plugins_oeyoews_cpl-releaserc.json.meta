@@ -1,0 +1,11 @@
+author: oeyoews
+created: 20220514131013658
+description: self releaserc to cpl
+list: readme releaserc
+modified: 20220518094903368
+packaged-by: Gatha on 18th May 2022, 17:49:47
+page-cover: 
+plugin-type: plugin
+title: $:/plugins/oeyoews/cpl-releaserc
+type: application/json
+version: v0.1.1
