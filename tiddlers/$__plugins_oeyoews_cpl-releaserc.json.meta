@@ -2,10 +2,11 @@ author: oeyoews
 created: 20220514131013658
 description: self releaserc to cpl
 list: readme releaserc
-modified: 20220518094903368
-packaged-by: Gatha on 18th May 2022, 17:49:47
+modified: 20220518163738602
+packaged-by: Gatha on 19th May 2022, 02:06:41
 page-cover: 
 plugin-type: plugin
+source: https://twms.vercel.app
 title: $:/plugins/oeyoews/cpl-releaserc
 type: application/json
-version: v0.1.1
+version: v0.1.2
