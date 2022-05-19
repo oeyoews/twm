@@ -1,16 +1,15 @@
 {"tiddlers": {
 "$:/plugins/oeyoews/copy-title/copybutton": {
+    "created": "20200419143537510",
+    "text": "\\whitespace trim\n<$button message=\"tm-copy-to-clipboard\" param={{!!title}} tooltip=\"copy current title\" class=<<tv-config-toolbar-class>>>\n\t<$list filter=\"[<tv-config-toolbar-icons>match[yes]]\">\n\t{{$:/core/images/copy-clipboard}}\n\t</$list>\n\t<$list filter=\"[<tv-config-toolbar-text>match[yes]]\">\n\t<span class=\"tc-btn-text\">\n\t<$text text=\"Demo\"/>\n\t</span>\n\t</$list>\n</$button>",
     "title": "$:/plugins/oeyoews/copy-title/copybutton",
     "caption": "Copy Tiddler Title",
-    "created": "20200419143537510",
     "creator": "soren",
     "description": "Copy the name of this tiddler to the clipboard",
-    "due": "20220312120000000",
-    "modified": "20220517091720085",
+    "modified": "20220519050611811",
     "modifier": "@oeyoews",
     "tags": "$:/tags/ViewToolbar",
     "type": "text/vnd.tiddlywiki",
-    "text": "\\whitespace trim\n<$button message=\"tm-copy-to-clipboard\" param={{!!title}} tooltip=\"copy current title\" class=<<tv-config-toolbar-class>>>\n\t<$list filter=\"[<tv-config-toolbar-icons>match[yes]]\">\n\t{{$:/core/images/copy-clipboard}}\n\t</$list>\n\t<$list filter=\"[<tv-config-toolbar-text>match[yes]]\">\n\t<span class=\"tc-btn-text\">\n\t<$text text=\"Demo\"/>\n\t</span>\n\t</$list>\n</$button>",
     "revision": "0",
     "bag": "default"
 },
@@ -44,5 +43,28 @@
     "text": "{{$:/plugins/oeyoews/copy-title!!version}}",
     "revision": "0",
     "bag": "default"
+},
+
+"oeyoews/copy-title": {
+    "created": "20220519050716542",
+    "text": "",
+    "title": "oeyoews/copy-title",
+    "cpl.author": "oeyoews",
+    "cpl.core-version": ">=5.2.2",
+    "cpl.description": "copy title to clipboard",
+    "cpl.documentation": "https://twms.vercel.app/",
+    "cpl.name": "Copy TiddlyWiki Title",
+    "cpl.plugin-type": "plugin",
+    "cpl.readme": "copy title to clipboard",
+    "cpl.source": "https://twms.vercel.app/",
+    "cpl.title": "$:/plugins/oeyoews/copy-title",
+    "cpl.uri": "https://twms.vercel.app/index.html",
+    "icon": "📋",
+    "modified": "20220519050949183",
+    "tags": "$:/tags/PluginWiki",
+    "type": "text/vnd.tiddlywiki",
+    "revision": "0",
+    "bag": "default",
+    "page-cover": "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29weXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500"
 }}
 }
