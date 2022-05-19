@@ -1,9 +1,9 @@
 author: oeyoews
 created: 20220519155650976
-modified: 20220519155727110
-packaged-by: Gatha on 19th May 2022, 23:58:54
+modified: 20220519161401711
+packaged-by: Gatha on 20th May 2022, 00:30:58
 plugin-type: plugin
 tags: 
 title: $:/plugins/oeyoews/tw-meta
 type: application/json
-version: v0.0.1
+version: v0.0.2
