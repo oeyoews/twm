@@ -1,14 +1,14 @@
 {"tiddlers": {
 "$:/plugins/oeyoews/mb-hidesidebar/actions": {
     "created": "20220521171656845",
-    "text": "<$reveal type=\"lt\" state=\"$:/info/browser/screen/width\" text={{{ [{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}removesuffix[px]] }}}>\n\n<$action-setfield $tiddler=\"$:/state/sidebar\"\n        $field=\"text\"\n        $value=\"no\"/>\n</$reveal>\n\n<$reveal type=\"gteq\" state=\"$:/info/browser/screen/width\" text={{{ [{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}removesuffix[px]] }}}>\n\n<$action-setfield $tiddler=\"$:/state/sidebar\" $value=\"yes\"/>\n\n</$reveal>\n",
+    "text": "<!-- this text not work, why ?\n<$reveal type=\"lt\" state=\"$:/info/browser/screen/width\" text={{{ [{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}}}}>\n\n<$action-setfield $tiddler=\"$:/state/sidebar\"\n        $field=\"text\"\n        $value=\"no\"/>\n</$reveal>\n-->\n\n<$reveal type=\"gteq\" state=\"$:/info/browser/screen/width\" text={{{ [{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}removesuffix[px]] }}}>\n\n<$action-setfield $tiddler=\"$:/state/sidebar\" $field=\"text\" $value=\"yes\"/>\n\n</$reveal>\n\n<$reveal type=\"lt\" state=\"$:/info/browser/screen/width\" text=\"690p\">\n<$action-setfield $tiddler=\"$:/state/sidebar\"\n        $field=\"text\"\n        $value=\"no\"/>\n</$reveal>\n",
     "title": "$:/plugins/oeyoews/mb-hidesidebar/actions",
-    "modified": "20220522004028292",
+    "modified": "20220522005133617",
     "tags": "$:/tags/StartupAction",
     "type": "text/vnd.tiddlywiki",
     "bag": "default",
     "code-body": "yes",
-    "revision": "2"
+    "revision": "7"
 },
 
 "$:/plugins/oeyoews/mb-hidesidebar/aftertips": {
@@ -46,14 +46,14 @@
 },
 
 "$:/plugins/oeyoews/mb-hidesidebar/readme": {
-    "title": "$:/plugins/oeyoews/mb-hidesidebar/readme",
     "created": "20220521171928946",
-    "modified": "20220521172543468",
+    "text": "Hide mobile tw sidebar\n\n* to judge os, such mobile browser or others(maybe browser sniff)\n* only judge once in startup ",
+    "title": "$:/plugins/oeyoews/mb-hidesidebar/readme",
+    "modified": "20220522004809123",
     "tags": "",
     "type": "text/vnd.tiddlywiki",
-    "text": "Hide mobile tw sidebar\n\n* to judge os, such mobile browser or others(maybe browser sniff)",
-    "revision": "0",
-    "bag": "default"
+    "bag": "default",
+    "revision": "1"
 },
 
 "oeyoews/mb-hidesidebar": {
