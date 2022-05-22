@@ -1,27 +1,27 @@
 {"tiddlers": {
 "$:/plugins/oeyoews/mb-hidesidebar/actions": {
-    "created": "20220521171656845",
-    "text": "<!-- this text not work, why ?\n<$reveal type=\"lt\" state=\"$:/info/browser/screen/width\" text={{{ [{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}}}}>\n\n<$action-setfield $tiddler=\"$:/state/sidebar\"\n        $field=\"text\"\n        $value=\"no\"/>\n</$reveal>\n-->\n\n<$reveal type=\"gteq\" state=\"$:/info/browser/screen/width\" text={{{ [{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}removesuffix[px]] }}}>\n\n<$action-setfield $tiddler=\"$:/state/sidebar\" $field=\"text\" $value=\"yes\"/>\n\n</$reveal>\n\n<$reveal type=\"lt\" state=\"$:/info/browser/screen/width\" text=\"690p\">\n<$action-setfield $tiddler=\"$:/state/sidebar\"\n        $field=\"text\"\n        $value=\"no\"/>\n</$reveal>\n",
     "title": "$:/plugins/oeyoews/mb-hidesidebar/actions",
+    "code-body": "yes",
+    "created": "20220521171656845",
     "modified": "20220522005133617",
     "tags": "$:/tags/StartupAction",
     "type": "text/vnd.tiddlywiki",
-    "bag": "default",
-    "code-body": "yes",
-    "revision": "7"
+    "text": "<!-- this text not work, why ?\n<$reveal type=\"lt\" state=\"$:/info/browser/screen/width\" text={{{ [{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}}}}>\n\n<$action-setfield $tiddler=\"$:/state/sidebar\"\n        $field=\"text\"\n        $value=\"no\"/>\n</$reveal>\n-->\n\n<$reveal type=\"gteq\" state=\"$:/info/browser/screen/width\" text={{{ [{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}removesuffix[px]] }}}>\n\n<$action-setfield $tiddler=\"$:/state/sidebar\" $field=\"text\" $value=\"yes\"/>\n\n</$reveal>\n\n<$reveal type=\"lt\" state=\"$:/info/browser/screen/width\" text=\"690p\">\n<$action-setfield $tiddler=\"$:/state/sidebar\"\n        $field=\"text\"\n        $value=\"no\"/>\n</$reveal>\n",
+    "revision": "0",
+    "bag": "default"
 },
 
 "$:/plugins/oeyoews/mb-hidesidebar/aftertips": {
-    "title": "$:/plugins/oeyoews/mb-hidesidebar/aftertips",
     "created": "20220521173026064",
+    "text": "<$reveal type=\"lt\" state=\"$:/info/browser/screen/width\" text=\"690p\">\n\t<$action-sendmessage $message=\"tm-notify\" $param=\"$:/plugins/oeyoews/mb-hidesidebar/hidetip\"/>\n</$reveal>",
+    "title": "$:/plugins/oeyoews/mb-hidesidebar/aftertips",
     "creator": "oeyoews",
-    "modified": "20220521174107532",
+    "modified": "20220522053311947",
     "modifier": "oeyoews",
     "tags": "$:/tags/StartupAction/PostRender",
     "type": "text/vnd.tiddlywiki",
-    "text": "<$action-sendmessage $message=\"tm-notify\" $param=\"$:/plugins/oeyoews/mb-hidesidebar/hidetip\"/>\n\n<!--\nonly effect for browser\n<$action-setfield $tiddler=\"$:/theme\" $value=\"$:/themes/tiddlywiki/vanilla\"/>\n-->",
-    "revision": "0",
-    "bag": "default"
+    "bag": "default",
+    "revision": "1"
 },
 
 "$:/plugins/oeyoews/mb-hidesidebar/hidetip": {
@@ -46,14 +46,14 @@
 },
 
 "$:/plugins/oeyoews/mb-hidesidebar/readme": {
-    "created": "20220521171928946",
-    "text": "Hide mobile tw sidebar\n\n* to judge os, such mobile browser or others(maybe browser sniff)\n* only judge once in startup ",
     "title": "$:/plugins/oeyoews/mb-hidesidebar/readme",
+    "created": "20220521171928946",
     "modified": "20220522004809123",
     "tags": "",
     "type": "text/vnd.tiddlywiki",
-    "bag": "default",
-    "revision": "1"
+    "text": "Hide mobile tw sidebar\n\n* to judge os, such mobile browser or others(maybe browser sniff)\n* only judge once in startup ",
+    "revision": "0",
+    "bag": "default"
 },
 
 "oeyoews/mb-hidesidebar": {
