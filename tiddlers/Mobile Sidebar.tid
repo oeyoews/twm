@@ -1,0 +1,24 @@
+created: 20220524050709316
+modified: 20220524050914312
+tags: $:/tags/Stylesheet
+title: Mobile Sidebar
+type: text/vnd.tiddlywiki
+
+/** Sidebar on mobile, make it sidebar instead of top bar */
+@media (max-width: {{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}}) {
+  .tc-sidebar-scrollable {
+    height: 100vh;
+    z-index: 1000;
+    position: fixed;
+    background: <<colour page-background>>;
+  }
+  /** make close sidebar button bigger */
+  .tc-topbar.tc-topbar-right > button.tc-hide-sidebar-btn {
+    width: 2em;
+    height: 2em;
+  }
+}
+/** fix z-index */
+.tc-modal-wrapper {
+  z-index: 1400;
+}
