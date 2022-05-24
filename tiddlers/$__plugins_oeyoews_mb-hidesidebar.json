@@ -3,7 +3,7 @@
     "title": "$:/plugins/oeyoews/mb-hidesidebar/actions",
     "code-body": "yes",
     "created": "20220521171656845",
-    "modified": "20220522005133617",
+    "modified": "20220522054606669",
     "tags": "$:/tags/StartupAction",
     "type": "text/vnd.tiddlywiki",
     "text": "<!-- this text not work, why ?\n<$reveal type=\"lt\" state=\"$:/info/browser/screen/width\" text={{{ [{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}}}}>\n\n<$action-setfield $tiddler=\"$:/state/sidebar\"\n        $field=\"text\"\n        $value=\"no\"/>\n</$reveal>\n-->\n\n<$reveal type=\"gteq\" state=\"$:/info/browser/screen/width\" text={{{ [{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}removesuffix[px]] }}}>\n\n<$action-setfield $tiddler=\"$:/state/sidebar\" $field=\"text\" $value=\"yes\"/>\n\n</$reveal>\n\n<$reveal type=\"lt\" state=\"$:/info/browser/screen/width\" text=\"690p\">\n<$action-setfield $tiddler=\"$:/state/sidebar\"\n        $field=\"text\"\n        $value=\"no\"/>\n</$reveal>\n",
@@ -12,27 +12,28 @@
 },
 
 "$:/plugins/oeyoews/mb-hidesidebar/aftertips": {
-    "created": "20220521173026064",
-    "text": "<$reveal type=\"lt\" state=\"$:/info/browser/screen/width\" text=\"690p\">\n\t<$action-sendmessage $message=\"tm-notify\" $param=\"$:/plugins/oeyoews/mb-hidesidebar/hidetip\"/>\n</$reveal>",
     "title": "$:/plugins/oeyoews/mb-hidesidebar/aftertips",
+    "code-body": "yes",
+    "created": "20220521173026064",
     "creator": "oeyoews",
-    "modified": "20220522053311947",
+    "modified": "20220522055526294",
     "modifier": "oeyoews",
     "tags": "$:/tags/StartupAction/PostRender",
     "type": "text/vnd.tiddlywiki",
-    "bag": "default",
-    "revision": "1"
+    "text": "<$reveal type=\"lt\" state=\"$:/info/browser/screen/width\" text=\"690p\">\n\t<$action-sendmessage $message=\"tm-notify\" $param=\"$:/plugins/oeyoews/mb-hidesidebar/hidetip\"/>\n</$reveal>",
+    "revision": "0",
+    "bag": "default"
 },
 
 "$:/plugins/oeyoews/mb-hidesidebar/hidetip": {
-    "title": "$:/plugins/oeyoews/mb-hidesidebar/hidetip",
     "created": "20220521174004125",
-    "modified": "20220521174057344",
+    "text": "Hide Sidebar 😸",
+    "title": "$:/plugins/oeyoews/mb-hidesidebar/hidetip",
+    "modified": "20220524035901749",
     "tags": "",
     "type": "text/vnd.tiddlywiki",
-    "text": "🥰 hide sidebar automatically",
-    "revision": "0",
-    "bag": "default"
+    "bag": "default",
+    "revision": "1"
 },
 
 "$:/plugins/oeyoews/mb-hidesidebar/icon": {

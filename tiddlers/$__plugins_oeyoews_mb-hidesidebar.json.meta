@@ -2,11 +2,11 @@ author: oeyoews
 created: 20220521171517288
 description: hide mobile sidebar
 list: readme
-modified: 20220522053345343
+modified: 20220524035939481
 name: Hide mobile sidebar
-packaged-by: Gatha on 22nd May 2022, 13:33:50
+packaged-by: Gatha on 24th May 2022, 11:59:51
 plugin-type: plugin
 tags: 
 title: $:/plugins/oeyoews/mb-hidesidebar
 type: application/json
-version: v0.0.7
+version: v0.0.8
