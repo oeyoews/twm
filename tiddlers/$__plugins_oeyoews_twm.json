@@ -87,21 +87,21 @@
 },
 
 "$:/plugins/oeyoews/twm/readme": {
-    "title": "$:/plugins/oeyoews/twm/readme",
     "created": "20220509151829092",
-    "modified": "20220517091720087",
+    "text": "* ''TWM'' is a music player plugin on Tiddlywiki5 🎵\n* You can edit this tiddler [[Settings|$:/plugins/oeyoews/twm/settings]] to choose  what music playlist  or more optional configuration. For more details， please click the [[README|https://gitlab.com/oeyoews/twm/blob/main/README.md]]  link.\n",
+    "title": "$:/plugins/oeyoews/twm/readme",
+    "modified": "20220528004800841",
     "type": "text/vnd.tiddlywiki",
-    "text": "''TWM'' is a  embed music player into Tiddlywiki5 plugin 🎵\n\n* You can edit this tiddler [[Settings|$:/plugins/oeyoews/twm/settings]] to switch  music playlist or song. For more details， please click the [[README|https://gitlab.com/oeyoews/twm/-/blob/main/README.md]]  link.\n",
     "revision": "0",
     "bag": "default"
 },
 
 "$:/plugins/oeyoews/twm/settings": {
     "created": "20211001231029099",
-    "text": "<!-- https://ftzzloo.com/hexo-add-aplayer-plugins/ -->\n\n<!-- option: lrc-type=\"0\" disable show lrc -->\n<!--        option:  theme=\"cyan\"  -->\n\n`<meting-js \n        id=\"3218667513\"\n        server=\"netease\"\n        order=\"random\" \n        type=\"playlist\" \n        fixed=\"true\" \n        preload=\"auto\"\n        loop=\"all\"\n        mutex=\"true\"\n\t\t\t\tlrc-type=\"0\"\n        list-olded=\"true\">`\n`</meting-js>`",
+    "text": "<!-- \nrelative link: https://ftzzloo.com/hexo-add-aplayer-plugins/ \n-->\n\n<!-- \noption: lrc-type=\"0\" \ndescription: disable show lrc -->\n\n<!--\noption:  theme=\"cyan\" \ndescription: change theme color to cyan\n-->\n\n<!--\noption: server=\"netease\"\ndescrition: chose music platform to \"netease\"\n-->\n\n<!-- \noption: order=\"random\"  \ndes: music player order is random\n-->\n\n<!-- \noption: id=\"3218667513\"\ndes: chose music id\n-->\n\n\n`<meting-js \n        id=\"3218667513\"\n        server=\"netease\"\n        order=\"random\" \n        type=\"playlist\" \n        fixed=\"true\" \n        preload=\"auto\"\n        loop=\"all\"\n        mutex=\"true\"\n\t\t\t\tlrc-type=\"0\"\n        list-olded=\"true\"\n>`\n`</meting-js>`",
     "title": "$:/plugins/oeyoews/twm/settings",
     "creator": "Télumire",
-    "modified": "20220526114652405",
+    "modified": "20220528004440193",
     "modifier": "oeyoews",
     "tags": "$:/tags/RawMarkupWikified/BottomBody",
     "type": "text/vnd.tiddlywiki",
@@ -147,9 +147,9 @@
     "cpl.uri": "https://twms.vercel.app/index.html",
     "created": "20220513164052878",
     "icon": "🎵",
-    "modified": "20220518091132616",
+    "modified": "20220528003536860",
     "page-cover": "https://images.unsplash.com/photo-1483412033650-1015ddeb83d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fG11c2ljfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-    "tags": "$:/tags/PluginWiki_bk",
+    "tags": "$:/tags/PluginLibrary",
     "type": "text/vnd.tiddlywiki",
     "revision": "0",
     "bag": "default"

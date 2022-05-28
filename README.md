@@ -10,7 +10,7 @@
 
 ## 🥭 Usage
 
-* Do nothing, just enjoy 🎵 😄
+* Do nothing, just enjoy 🎵
 
 ## ✅ TODO
 
@@ -27,8 +27,4 @@
 
 ## 🍰 Status
 
-* Self-use tools, welcome to submit issues. Perfect...
-
-## 🕐 UpdateTime
-
-2022-05-17T19:04:04
+* Self-use tools, welcome to submit issues. Perfecting...
