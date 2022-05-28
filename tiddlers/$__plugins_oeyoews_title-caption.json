@@ -10,19 +10,17 @@
 },
 
 "$:/plugins/oeyoews/title-caption/readme": {
-    "title": "$:/plugins/oeyoews/title-caption/readme",
     "created": "20220523085428537",
-    "modified": "20220523085849738",
+    "text": "* if have caption, show it\n* [[Ref|https://talk.tiddlywiki.org/t/displaying-the-caption-instead-of-title-in-tw-5-2-1-using-the-new-cascade-filters/1791]]",
+    "title": "$:/plugins/oeyoews/title-caption/readme",
+    "modified": "20220528064442074",
     "tags": "",
     "type": "text/vnd.tiddlywiki",
-    "text": "if have caption, show it",
     "revision": "0",
     "bag": "default"
 },
 
 "oeyoews/caption-title": {
-    "created": "20220523123156265",
-    "text": "",
     "title": "oeyoews/caption-title",
     "cpl.author": "oeyoews",
     "cpl.core-version": ">=5.2.2",
@@ -34,6 +32,7 @@
     "cpl.source": "https://twms.vercel.app/",
     "cpl.title": "$:/plugins/oeyoews/title-caption",
     "cpl.uri": "https://twms.vercel.app/index.html",
+    "created": "20220523123156265",
     "icon": "🎫",
     "modified": "20220523123335811",
     "page-cover": "https://images.unsplash.com/photo-1502078534399-8190479363f5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGl0bGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500",
@@ -57,18 +56,6 @@
     "title": "$:/ui/ViewTemplate/title/displayCaption",
     "type": "text/vnd.tiddlywiki",
     "text": "\\whitespace trim\n<h2 class=\"tc-title\">\n<$view field=\"caption\" />\n</h2>",
-    "revision": "0",
-    "bag": "default"
-},
-
-"\uD83D\uDE04": {
-    "title": "😄",
-    "caption": "😄😄😄😄",
-    "created": "20220523085121144",
-    "modified": "20220523120211083",
-    "tags": "",
-    "type": "text/vnd.tiddlywiki",
-    "text": "test",
     "revision": "0",
     "bag": "default"
 }}
