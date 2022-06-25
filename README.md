@@ -1,6 +1,12 @@
 <h1 align="center">TWM</h1>
 
 <div align="center">
+  <span> • </span>
+	<a href="https://oeyoews.github.io/twm">Home</a>
+  <span> • </span>
+</div>
+
+<div align="center">
 <img src="https://img.shields.io/badge/System-Linux-white.svg?style=flat-square&logo=linux&logoColor=white&color=BB9AF7" alt="system">
 <img src="https://img.shields.io/gitlab/v/tag/oeyoews/twm?color=green&logo=FastAPI&style=flat-square" alt="tag">
 <img src="https://img.shields.io/badge/Gitlab-Yes-ffcc00.svg?style=flat-square&logo=gitlab&label=Gitlab" alt="gitlab">
