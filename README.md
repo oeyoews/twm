@@ -18,8 +18,8 @@
 
 <hr>
 
-# 🎉 Welcom to [TWM](https://twms.vercel.app/)
 
+## Welcom to [TWM](https://twms.vercel.app/)
 
 > ⚠️ Need reload your TiddlyWiki5 or reboot your application fter install this TWM plugin
 
@@ -33,11 +33,11 @@
 
 ## ✅ TODO
 
-* [TODO](docs/TODO.md)
+[TODO](docs/TODO.md)
 
 ## 🎤 FAQ
 
-* [FAQ](docs/FAQ.md)
+[FAQ](docs/FAQ.md)
 
 ## 🔗 Related Link
 
