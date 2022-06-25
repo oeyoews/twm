@@ -21,29 +21,29 @@
 
 ## Welcom to [TWM](https://twms.vercel.app/)
 
-> ⚠️ Need reload your TiddlyWiki5 or reboot your application fter install this TWM plugin
+> Need reload your TiddlyWiki5 or reboot your application fter install this TWM plugin
 
-## 👤 Introduce
+## Introduce
 
 * A player in TiddlyWiki5
 
-## 🥭 Usage
+## Usage
 
 * Do nothing, just enjoy 🎵
 
-## ✅ TODO
+## TODO
 
 [TODO](docs/TODO.md)
 
-## 🎤 FAQ
+##  FAQ
 
 [FAQ](docs/FAQ.md)
 
-## 🔗 Related Link
+## Related Link
 
 * [MetingJS](https://github.com/metowolf/MetingJS)
 * [Aplayer](https://github.com/DIYgod/APlayer)
 
-## 🍰 Status
+## Status
 
 * Self-use tools, welcome to submit issues. Perfecting...
