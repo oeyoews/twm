@@ -24,7 +24,6 @@
 
 <hr>
 
-
 ## Welcom to [TWM](https://twms.vercel.app/)
 
 > Need reload your TiddlyWiki5 or reboot your application fter install this TWM plugin
@@ -53,3 +52,7 @@
 ## Status
 
 * Self-use tools, welcome to submit issues. Perfecting...
+
+## More
+
+* more TiddlyWiki5 plugins are here: [Plugins](https://tw-cpl.netlify.app/#Index:Index)
