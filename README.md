@@ -28,11 +28,17 @@
 
 > Need reload your TiddlyWiki5 or reboot your application fter install this TWM plugin
 
-## Introduce
+## What's the TWM?
 
 * A player in TiddlyWiki5
 
-## Usage
+## Preview
+
+<div align="center">
+ <img src="img/2022-07-22-16-45-25.png" alt="prwview twm" width=512>
+</div>
+
+# Usage
 
 * Do nothing, just enjoy 🎵
 
